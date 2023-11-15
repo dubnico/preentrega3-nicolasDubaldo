@@ -1,511 +1,256 @@
-
-/* selector universal */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: roboto
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:ital,wght@0,400;0,700;0,900;1,300&family=Roboto:ital,wght@0,700;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:ital,wght@0,400;0,700;0,900;1,300&family=Roboto:ital,wght@0,700;1,700&display=swap');
-
-/* colors usados en el proyecto:
-#FF8066
-#6252C6
-#54525e */
-
-
-/* -------------------------------------------- */
-/* -------------------------------------------- */
-/* -------------------------------------------- */
-
-
-/* TRABAJO CON EL HEADER */
-header{
-    height: 50px;
+header {
+  height: 50px;
 }
 
-/* color del contenedor de la lista menú */
-.container-header-color{
-    background-color: #FF8066;
+.container-header-color {
+  background-color: #FF8066;
 }
 
-#color-search{
-    border-color: #E0EEF0;
-    color:#fff;
+#color-search {
+  border-color: white;
+  color: white;
 }
 
-/* "logo" */
-#colorlogo{
-    font-size: 32px;
-    font-weight: 900;
-    font-family: roboto;
-    color: #fff;
+#colorlogo {
+  font-size: 32px;
+  font-weight: 900;
+  font-family: roboto;
+  color: white;
 }
 
-/* imagen del banner y modificaciones */
-.img-banner{
-    height: 400px;
-    background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
-    background-size: cover;
-    filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
-    background-position:center;
+.img-banner {
+  height: 400px;
+  background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
+  background-size: cover;
+  filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
+  background-position: center;
 }
 
-/* -------------------------------------------- */
-/* -------------------------------------------- */
-/* -------------------------------------------- */
-
-
-/* CÓDIGO DEL MAIN */
-
-.tamaño-main-index{
-    height: 600px;
+footer {
+  background-color: #54525e;
+  color: white;
+  font-weight: 700;
 }
 
+.text-footer {
+  padding: 20px;
+}
+
+.menu {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.redes {
+  text-align: center;
+  padding: 15px;
+}
+
+.redes a {
+  text-decoration: none;
+  text-align: center;
+  color: #FF8066;
+  font-size: 30px;
+  letter-spacing: 25px;
+}
+
+.tamaño-main-index {
+  height: 600px;
+}
 
 /* CÓDIGO frase  */
-
-.contenedor-frase{
-    padding: 50px 120px 120px 120px;
+.contenedor-frase {
+  padding: 50px 120px 120px 120px;
 }
 
-.frase{
-    font-size: 18px;
+.frase {
+  font-size: 18px;
 }
 
-.frase span{
-    font-weight: bold;
-    font-size: 19px;
+.frase span {
+  font-weight: bold;
+  font-size: 19px;
 }
 
-
-/* CÓDIGO call to action  */
-
-.contenedor-call{
-    padding: 50px 120px 120px 120px;
+.contenedor-call {
+  padding: 50px 120px 120px 120px;
 }
 
-.call-to-action-a{
-    text-transform: capi;
-    font-family: Poppins;
-    font-weight: bold;
-    font-size: 52px;
-    text-align: right;
-    line-height: 105%; /* establezco interlineado */
-
-
+.call-to-action-a {
+  text-transform: capi;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 52px;
+  text-align: right;
+  line-height: 105%; /* establezco interlineado */
 }
 
-.call-to-action-b{
-    text-decoration: none;
-    color: #101010;
-    padding: 10px;
-    font-family: poppins;
-    font-weight: bold;
-    font-size: 22px;
-    text-align: center;
-    background-color: #fff;
+.call-to-action-b {
+  text-decoration: none;
+  color: #101010;
+  padding: 10px;
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  background-color: white;
 }
 
-.call-to-action-b:hover{
-    background-color: #FF8066;
-    color: #fff;
-    transition: color 0.3s;
+.call-to-action-b:hover {
+  background-color: #FF8066;
+  color: white;
+  transition: color 0.3s;
 }
 
-
-/* -------------------------------------------- */
-/* -------------------------------------------- */
-/* -------------------------------------------- */
-
-
-
-/* CÓDIGO DEL FOOTER*/
-
-footer{
-    background-color: #54525e;
-    color: #E0EEF0;
-    font-weight: 700;
+#title-tienda {
+  font-family: poppins;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 35px;
+  /* text-shadow: 1px 0px 12px; */
 }
 
-.text-footer{
-    padding: 20px
+.card {
+  margin: 20px;
+  box-shadow: 10px 4px 5px rgba(72, 82, 153, 0.2666666667); /*para sombra  caja cards*/
 }
 
-.menu{
-    height: 50px;
-    margin: 0;
-    padding: 0;
+.orden-fila {
+  justify-content: center;
 }
 
-.redes{
-    text-align: center;
-    padding: 15px;
-
+.img-css-dos {
+  height: 326px;
 }
 
-.redes a{
-    text-decoration: none;
-    text-align: center;
-    color:#FF8066 ;
-    font-size: 30px;
-    letter-spacing: 25px;
+.btn-primary { /*modificación sobre class btn-primary Bts*/
+  background-color: #FF8066;
+  border: none;
 }
 
-
-/* -------------------------------------------- */
-/* -------------------------------------------- */
-/* -------------------------------------------- */
-
-.list-group{
-    padding: 50px;
+.section-eventos {
+  background-color: #242121;
 }
 
-/* CÓDIGO TIENDA*/
-
-#title-tienda{
-    font-family: poppins;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    padding: 35px;
-    /* text-shadow: 1px 0px 12px; */
-
+#title-eventos {
+  font-family: poppins;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 35px;
+  /* text-shadow: 1px 0px 12px; */
 }
 
-.card{
-    margin: 20px;
-    box-shadow: 10px 4px 5px #48529944; /*para sombra  caja cards*/
-}
-
-.orden-fila{
-    justify-content: center;
-}
-
-.img-css-dos{
-    height: 326px;
-}
-
-.btn-primary{ /*modificación sobre class btn-primary Bts*/
-    background-color: #FF8066;
-    border: none;
-}
-
-/* -------------------------------------------- */
-/* -------------------------------------------- */
-/* -------------------------------------------- */
-
-/* CÓDIGO EVENTOS*/
-
-.section-eventos{
-    background-color: #242121;
-}
-
-
-#title-eventos{
-    font-family: poppins;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    padding: 35px;
-    /* text-shadow: 1px 0px 12px; */
-}
-
-.list-group-item{
-    text-align: center;
+.list-group-item {
+  text-align: center;
 }
 
 /*transition*/
-.evento1:hover{
-    height: 250px;
-    transition: 3s;
-    background-image: url(../img/da-vinci.jpg);
-    background-size: cover;
-    font-weight: bold;
-    font-size: 18px;
-    color: #fff;
-    opacity: 0.9;
-    box-shadow: 0px 0px 10px 10px #101010;
-} 
-
-.evento2:hover{
-    height: 250px;
-    transition: 3s;
-    background-image: url(../img/da-vinci.jpg);
-    background-size: cover;
-    font-weight: bold;
-    font-size: 18px;
-    color: #fff;
-    opacity: 0.9;
-    box-shadow: 0px 0px 10px 10px #101010;
-} 
-
-.evento3:hover{
-    height: 250px;
-    transition: 3s;
-    background-image: url(../img/da-vinci.jpg);
-    background-size: cover;
-    font-weight: bold;
-    font-size: 18px;
-    color: #fff;
-    opacity: 0.9;
-    box-shadow: 0px 0px 10px 10px #101010;
-} 
-
-.evento4:hover{
-    height: 250px;
-    transition: 3s;
-    background-image: url(../img/da-vinci.jpg);
-    background-size: cover;
-    font-weight: bold;
-    font-size: 18px;
-    color: #fff;
-    opacity: 0.9;
-    box-shadow: 0px 0px 10px 10px #101010;
-} 
-
-.evento5:hover{
-    height: 250px;
-    transition: 3s;
-    background-image: url(../img/da-vinci.jpg);
-    background-size: cover;
-    font-weight: bold;
-    font-size: 18px;
-    color: #fff;
-    opacity: 0.9;
-    box-shadow: 0px 0px 10px 10px #101010;
-} 
-
-.evento6:hover{
-    height: 250px;
-    transition: 3s;
-    background-image: url(../img/da-vinci.jpg);
-    background-size: cover;
-    font-weight: bold;
-    font-size: 18px;
-    color: #fff;
-    opacity: 0.9;
-    box-shadow: 0px 0px 10px 10px #101010;
-} 
-
-.evento7:hover{
-    height: 250px;
-    transition: 3s;
-    background-image: url(../img/da-vinci.jpg);
-    background-size: cover;
-    font-weight: bold;
-    font-size: 18px;
-    color: #fff;
-    opacity: 0.9;
-    box-shadow: 0px 0px 10px 10px #101010;
-} 
-
-.evento8:hover{
-    height: 250px;
-    transition: 3s;
-    background-image: url(../img/da-vinci.jpg);
-    background-size: cover;
-    font-weight: bold;
-    font-size: 18px;
-    color: #fff;
-    opacity: 0.9;
-    box-shadow: 0px 0px 10px 10px #101010;
-} 
-/* ---------------------- INICIO MEDIA QUERIES ----------------------------------------*/ 
-
-
-/*HASTA 480PX*/ 
-@media (max-width: 480px) {
-
-    header{
-        height: 120px;
-    }
-
-/* "logo" */
-    #colorlogo{
-    font-size: 20px;
-    font-weight: 900;
-    font-family: roboto;
-    color: #fff;
-    }
-
-    .img-banner{
-        height: 250px;
-        background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
-        background-size: cover;
-        filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
-        background-position:center;
-    }
-
-/* CÓDIGO frase  */
-.contenedor-frase{
-    padding: 20px 20px 20px 20px;
+.evento1:hover {
+  height: 250px;
+  transition: 3s;
+  background-image: url(../img/da-vinci.jpg);
+  background-size: cover;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
 }
 
-.frase{
-    font-size: 12px;
+.evento2:hover {
+  height: 250px;
+  transition: 3s;
+  background-image: url(../img/da-vinci.jpg);
+  background-size: cover;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
 }
 
-.frase span{
-    font-weight: bold;
-    font-size: 14px;
+.evento3:hover {
+  height: 250px;
+  transition: 3s;
+  background-image: url(../img/da-vinci.jpg);
+  background-size: cover;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
 }
 
-
-/* CÓDIGO call to action  */
-.contenedor-call{
-    padding: 20px;
+.evento4:hover {
+  height: 250px;
+  transition: 3s;
+  background-image: url(../img/da-vinci.jpg);
+  background-size: cover;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
 }
 
-.call-to-action-a{
-    text-transform: capi;
-    font-family: Poppins;
-    font-weight: bold;
-    font-size: 24px;
-    text-align: right;
-    line-height: 150%; /* establezco interlineado */
+.evento5:hover {
+  height: 250px;
+  transition: 3s;
+  background-image: url(../img/da-vinci.jpg);
+  background-size: cover;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
 }
 
-.call-to-action-b{
-    text-decoration: none;
-    color: #101010;
-    padding: 10px;
-    font-family: poppins;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
-    background-color: #fff;
+.evento6:hover {
+  height: 250px;
+  transition: 3s;
+  background-image: url(../img/da-vinci.jpg);
+  background-size: cover;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
 }
 
-
-/* CÓDIGO DEL FOOTER*/
-footer{
-    background-color: #54525e;
-    color: #E0EEF0;
+.evento7:hover {
+  height: 250px;
+  transition: 3s;
+  background-image: url(../img/da-vinci.jpg);
+  background-size: cover;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
 }
 
-.text-footer{
-    padding: 10px;
-    font-size: 12px;
+.evento8:hover {
+  height: 250px;
+  transition: 3s;
+  background-image: url(../img/da-vinci.jpg);
+  background-size: cover;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
 }
 
-
-.redes{
-    text-align: center;
-    padding: 12px;
-}
-
-.redes a{
-    text-decoration: none;
-    text-align: center;
-    color:#FF8066 ;
-    font-size: 20px;
-    letter-spacing: 16px;
-}
-}
-
-#title-tienda{
-    font-size: 22px;
-}
-
-
-
-
-
-/*HASTA 1200*/ 
-@media (max-width: 1200px) {
-    header{
-        height: 60px;
-    }
-
-/* "logo" */
-    #colorlogo{
-    font-size: 20px;
-    font-weight: 900;
-    font-family: roboto;
-    color: #fff;
-}
-
-    .img-banner{
-        height: 400px;
-        background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
-        background-size: cover;
-        filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
-        background-position:center;
-    }
-
-/* CÓDIGO frase  */
-.contenedor-frase{
-    padding: 40px 40px 40px 40px;
-}
-
-.frase{
-    font-size: 16px;
-}
-
-.frase span{
-    font-weight: bold;
-    font-size: 16px;
-}
-
-
-/* CÓDIGO call to action  */
-.contenedor-call{
-    padding: 40px 40px 40px 40px;
-}
-
-.call-to-action-a{
-    text-transform: capi;
-    font-family: Poppins;
-    font-weight: bold;
-    font-size: 22px;
-    text-align: right;
-    line-height: 180%; /* establezco interlineado */
-}
-
-.call-to-action-b{
-    text-decoration: none;
-    color: #101010;
-    padding: 10px;
-    font-family: poppins;
-    font-weight: bold;
-    font-size: 22px;
-    text-align: center;
-    background-color: #fff;
-}
-
-
-/* CÓDIGO DEL FOOTER*/
-footer{
-    background-color: #54525e;
-    color: #E0EEF0;
-}
-
-.text-footer{
-    padding: 10px;
-    font-size: 16px;
-}
-
-
-.redes{
-    text-align: center;
-    padding: 25px;
-}
-
-.redes a{
-    text-decoration: none;
-    text-align: center;
-    color:#FF8066 ;
-    font-size: 20px;
-    letter-spacing: 16px;
-}
-}
-
-#title-tienda{
-    font-size: 24px;
-}
-
-
-/* ---------------------- FIN MEDIA QUERIES ----------------------------------------*/ 
-
+/*# sourceMappingURL=styles.css.map */

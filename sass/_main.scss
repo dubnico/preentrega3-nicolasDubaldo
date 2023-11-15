@@ -1,0 +1,56 @@
+// CÓDIGO DEL MAIN
+
+.tamaño-main-index{
+    height: 600px;
+}
+
+
+/* CÓDIGO frase  */
+
+.contenedor-frase{
+    padding: 50px 120px 120px 120px;
+}
+
+.frase{
+    font-size: 18px;
+}
+
+.frase span{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+//CÓDIGO call to action
+
+.contenedor-call{
+    padding: 50px 120px 120px 120px;
+}
+
+.call-to-action-a{
+    text-transform: capi;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 52px;
+    text-align: right;
+    line-height: 105%; /* establezco interlineado */
+
+
+}
+
+.call-to-action-b{
+    text-decoration: none;
+    color: #101010;
+    padding: 10px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    background-color: $color4weiss;
+}
+
+.call-to-action-b:hover{
+    background-color: $color1;
+    color:$color4weiss;
+    transition: color 0.3s;
+}

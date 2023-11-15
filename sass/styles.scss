@@ -1,0 +1,25 @@
+//selector universal
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:ital,wght@0,400;0,700;0,900;1,300&family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+//variables para colors usados en el proyecto:
+$color1:#FF8066;
+$color2:#6252C6;
+$color3:#54525e;
+$color4weiss:#ffff;
+$color4negro:#0000;
+
+//PARTIALS
+@import "_header";
+@import "_footer";
+@import "_main";
+@import "_tienda";
+@import "_eventos";
+@import "_contacto";
+@import "_blog";

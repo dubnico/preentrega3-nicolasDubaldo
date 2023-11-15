@@ -1,0 +1,31 @@
+// TRABAJO CON EL HEADER 
+header{
+    height: 50px;
+}
+
+// color del contenedor de la lista menú 
+.container-header-color{
+    background-color: $color1;
+}
+
+#color-search{
+    border-color:$color4weiss;
+    color:$color4weiss;
+}
+
+// "logo" 
+#colorlogo{
+    font-size: 32px;
+    font-weight: 900;
+    font-family: roboto;
+    color:$color4weiss;
+}
+
+// imagen del banner y modificaciones
+.img-banner{
+    height: 400px;
+    background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
+    background-size: cover;
+    filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
+    background-position:center;
+}

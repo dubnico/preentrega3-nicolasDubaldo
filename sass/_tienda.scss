@@ -1,0 +1,29 @@
+//CÓDIGO TIENDA
+
+#title-tienda{
+    font-family: poppins;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 35px;
+    /* text-shadow: 1px 0px 12px; */
+
+}
+
+.card{
+    margin: 20px;
+    box-shadow: 10px 4px 5px #48529944; /*para sombra  caja cards*/
+}
+
+.orden-fila{
+    justify-content: center;
+}
+
+.img-css-dos{
+    height: 326px;
+}
+
+.btn-primary{ /*modificación sobre class btn-primary Bts*/
+    background-color:$color1;
+    border: none;
+}

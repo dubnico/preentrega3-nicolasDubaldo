@@ -1,6 +1,6 @@
 // TRABAJO CON EL HEADER 
 header{
-    height: 50px;
+    height: 55px;
 }
 
 // color del contenedor de la lista menú 
@@ -15,9 +15,9 @@ header{
 
 // "logo" 
 #colorlogo{
-    font-size: 32px;
-    font-weight: 900;
-    font-family: roboto;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: $font-principal;
     color:$color4weiss;
 }
 

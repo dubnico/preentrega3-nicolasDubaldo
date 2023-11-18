@@ -4,11 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: roboto;
 }
 
 header {
-  height: 50px;
+  height: 55px;
 }
 
 .container-header-color {
@@ -21,9 +20,9 @@ header {
 }
 
 #colorlogo {
-  font-size: 32px;
-  font-weight: 900;
-  font-family: roboto;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "poppins", sans-serif;
   color: white;
 }
 
@@ -43,6 +42,7 @@ footer {
 
 .text-footer {
   padding: 20px;
+  font-family: "poppins", sans-serif;
 }
 
 .menu {
@@ -60,8 +60,8 @@ footer {
   text-decoration: none;
   text-align: center;
   color: #FF8066;
-  font-size: 30px;
-  letter-spacing: 25px;
+  font-size: 33px;
+  letter-spacing: 50px;
 }
 
 .tamaño-main-index {
@@ -144,7 +144,7 @@ footer {
 }
 
 #title-eventos {
-  font-family: poppins;
+  font-family: "poppins", sans-serif;
   font-size: 22px;
   font-weight: bold;
   text-align: center;
@@ -164,6 +164,7 @@ footer {
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
+  font-family: "poppins", sans-serif;
   color: white;
   opacity: 0.9;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
@@ -176,6 +177,7 @@ footer {
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
+  font-family: "poppins", sans-serif;
   color: white;
   opacity: 0.9;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
@@ -188,6 +190,7 @@ footer {
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
+  font-family: "poppins", sans-serif;
   color: white;
   opacity: 0.9;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
@@ -200,6 +203,7 @@ footer {
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
+  font-family: "poppins", sans-serif;
   color: white;
   opacity: 0.9;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
@@ -212,6 +216,7 @@ footer {
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
+  font-family: "poppins", sans-serif;
   color: white;
   opacity: 0.9;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
@@ -224,6 +229,7 @@ footer {
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
+  font-family: "poppins", sans-serif;
   color: white;
   opacity: 0.9;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
@@ -236,6 +242,7 @@ footer {
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
+  font-family: "poppins", sans-serif;
   color: white;
   opacity: 0.9;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
@@ -248,6 +255,7 @@ footer {
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
+  font-family: "poppins", sans-serif;
   color: white;
   opacity: 0.9;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);

@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: roboto
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:ital,wght@0,400;0,700;0,900;1,300&family=Roboto:ital,wght@0,700;1,700&display=swap');
@@ -14,6 +13,9 @@ $color2:#6252C6;
 $color3:#54525e;
 $color4weiss:#ffff;
 $color4negro:#0000;
+
+//variables fonts usadas en el proyecto:
+$font-principal: "poppins", sans-serif;
 
 //PARTIALS
 @import "_header";

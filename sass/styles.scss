@@ -25,3 +25,231 @@ $font-principal: "poppins", sans-serif;
 @import "_eventos";
 @import "_contacto";
 @import "_blog";
+
+
+
+/* ------------------------------- MEDIA QUERIES ----------------------------------------*/ 
+
+/* Ejecutar estas condiciones CSS para resoluciones de 0px hasta 480*/
+    @media screen and (max-width: 480px) {
+
+        /* "logo" */
+            #colorlogo{
+            font-size: px;
+            font-weight: 900;
+            font-family: $font-principal;
+            color: $color1;
+            }
+        
+            .img-banner{
+                height: 0;
+                background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
+                background-size: cover;
+                filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
+                background-position:center;
+            }
+
+
+        /* CÓDIGO call to action  */
+        .contenedor-call{
+            padding: 20px;
+        }
+        
+        .call-to-action-a{
+            text-transform: capi;
+            color: $color4weiss;
+            font-family: Poppins;
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+            line-height: 150%; /* establezco interlineado */
+        }
+        
+        .call-to-action-b{
+            text-decoration: none;
+            color: $color1;
+            padding: 10px;
+            font-family: poppins;
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+            background-color: $color4weiss;
+        }
+        
+        
+        /* CÓDIGO DEL FOOTER*/
+        footer{
+            background-color: $color3;
+            color: #E0EEF0;
+        }
+        
+        .text-footer{
+            padding: 10px;
+            font-size: 12px;
+        }
+        
+        
+        .redes{
+            text-align: center;
+            padding: 12px;
+        }
+        
+        .redes a{
+            text-decoration: none;
+            text-align: center;
+            color:$color1 ;
+            font-size: 20px;
+            letter-spacing: 16px;
+        }
+        }
+    
+
+
+
+/* Ejecutar estas condiciones CSS para resoluciones de 480px hasta 1024*/
+    @media only screen and (min-width: 480px) and (max-width:1024px) {
+    
+        #colorlogo {
+        font-size: 20px;
+        font-weight: 900;
+        font-family: $font-principal;
+        color: $color1;
+    }
+    
+        .img-banner{
+            height: 400px;
+            background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
+            background-size: cover;
+            filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
+            background-position:center;
+        }
+
+    /* CÓDIGO call to action  */
+    .contenedor-call{
+        padding: 40px 40px 40px 40px;
+    }
+    
+    .call-to-action-a{
+        text-transform: capi;
+        color: $color4weiss;
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        line-height: 180%; /* establezco interlineado */
+    }
+    
+    .call-to-action-b{
+        text-decoration: none;
+        color: $color1;
+        padding: 10px;
+        font-family: poppins;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        background-color: $color4weiss;
+    }
+    
+    
+    /* CÓDIGO DEL FOOTER*/
+    footer{
+        background-color: $color3;
+        color: #E0EEF0;
+    }
+    
+    .text-footer{
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    
+    .redes{
+        text-align: center;
+        padding: 25px;
+    }
+    
+    .redes a{
+        text-decoration: none;
+        text-align: center;
+        color:$color1 ;
+        font-size: 20px;
+        letter-spacing: 16px;
+    }
+    }
+    
+
+    
+/* Ejecutar estas condiciones CSS para resoluciones desde 1024px* hasta 1680px*/
+    @media only screen and (min-width: 1024px) and (max-width:1680px) {
+    
+    
+    /* "logo" */
+        #colorlogo{
+        font-size: 20px;
+        font-weight: 900;
+        font-family: $font-principal;
+        color: $color1;
+    }
+    
+        .img-banner{
+            height: 400px;
+            background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
+            background-size: cover;
+            filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
+            background-position:center;
+        }
+    
+
+    /* CÓDIGO call to action  */
+    .contenedor-call{
+        padding: 40px 40px 40px 40px;
+    }
+    
+    .call-to-action-a{
+        text-transform: capi;
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 32px;
+        text-align: center;
+        line-height: 180%; /* establezco interlineado */
+        
+    }
+    
+    .call-to-action-b{
+        text-decoration: none;
+        color: $color1;
+        padding: 10px;
+        font-family: poppins;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        background-color: $color4weiss;
+    }
+    
+    
+    /* CÓDIGO DEL FOOTER*/
+    footer{
+        background-color: $color3;
+        color: #E0EEF0;
+    }
+    
+    .text-footer{
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    
+    .redes{
+        text-align: center;
+        padding: 25px;
+    }
+    
+    .redes a{
+        text-decoration: none;
+        text-align: center;
+        color:$color1 ;
+        font-size: 20px;
+        letter-spacing: 16px;
+    }
+    }
+

@@ -1,24 +1,14 @@
 // TRABAJO CON EL HEADER 
-header{
-    height: 55px;
-}
 
-// color del contenedor de la lista menú 
-.container-header-color{
-    background-color: $color1;
-}
 
-#color-search{
-    border-color:$color4weiss;
-    color:$color4weiss;
-}
+
 
 // "logo" 
 #colorlogo{
     font-size: 30px;
     font-weight: 700;
     font-family: $font-principal;
-    color:$color4weiss;
+    color:$color1;
 }
 
 // imagen del banner y modificaciones
@@ -29,3 +19,4 @@ header{
     filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
     background-position:center;
 }
+

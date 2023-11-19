@@ -1,5 +1,9 @@
 //CÓDIGO TIENDA
 
+#container-fluid-tienda{
+    background-color:$color1;
+}
+
 #title-tienda{
     font-family: poppins;
     font-size: 32px;
@@ -7,7 +11,6 @@
     text-align: center;
     padding: 35px;
     /* text-shadow: 1px 0px 12px; */
-
 }
 
 .card{

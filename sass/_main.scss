@@ -4,23 +4,6 @@
     height: 600px;
 }
 
-
-/* CÓDIGO frase  */
-
-.contenedor-frase{
-    padding: 50px 120px 120px 120px;
-}
-
-.frase{
-    font-size: 18px;
-}
-
-.frase span{
-    font-weight: bold;
-    font-size: 19px;
-}
-
-
 //CÓDIGO call to action
 
 .contenedor-call{
@@ -32,16 +15,18 @@
     font-family: Poppins;
     font-weight: bold;
     font-size: 52px;
-    text-align: right;
+    text-align: center;
     line-height: 105%; /* establezco interlineado */
+}
 
-
+.call-to-action-a p{
+    text-align: center;
 }
 
 .call-to-action-b{
     text-decoration: none;
     color: #101010;
-    padding: 10px;
+    padding: 15px;
     font-family: poppins;
     font-weight: bold;
     font-size: 22px;
@@ -53,4 +38,17 @@
     background-color: $color1;
     color:$color4weiss;
     transition: color 0.3s;
+}
+
+#contenedor-2{ 
+    background-color: $color1 !important;
+}
+
+.card-text {
+    font-family: $font-principal;
+}
+
+.card-title{
+    font-family: $font-principal;
+    font-weight: 600;
 }

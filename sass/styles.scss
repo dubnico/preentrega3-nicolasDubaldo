@@ -116,13 +116,13 @@ $font-principal: "poppins", sans-serif;
         color: $color1;
     }
     
-        .img-banner{
-            height: 400px;
-            background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
-            background-size: cover;
-            filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
-            background-position:center;
-        }
+    .img-banner{
+        height: 400px;
+        background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
+        background-size: cover;
+        filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
+        background-position:center;
+    }
 
     /* CÓDIGO call to action  */
     .contenedor-call{
@@ -134,7 +134,7 @@ $font-principal: "poppins", sans-serif;
         color: $color4weiss;
         font-family: Poppins;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 26px;
         text-align: center;
         line-height: 180%; /* establezco interlineado */
     }

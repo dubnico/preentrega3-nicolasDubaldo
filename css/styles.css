@@ -134,7 +134,8 @@ footer {
 }
 
 .section-eventos {
-  background-color: #242121;
+  background-color: #FF8066;
+  height: 50vh;
 }
 
 #title-eventos {
@@ -167,7 +168,7 @@ footer {
 .evento2:hover {
   height: 250px;
   transition: 3s;
-  background-image: url(../img/da-vinci.jpg);
+  background-image: url(../img/divina-comedia.webp);
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
@@ -180,7 +181,7 @@ footer {
 .evento3:hover {
   height: 250px;
   transition: 3s;
-  background-image: url(../img/da-vinci.jpg);
+  background-image: url(..//img/el-eternauta.jpg);
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
@@ -193,7 +194,7 @@ footer {
 .evento4:hover {
   height: 250px;
   transition: 3s;
-  background-image: url(../img/da-vinci.jpg);
+  background-image: url(../img/mas-alla-del-bien-y-del-mal-friedrich-nietzsche-.jpg);
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
@@ -206,7 +207,7 @@ footer {
 .evento5:hover {
   height: 250px;
   transition: 3s;
-  background-image: url(../img/da-vinci.jpg);
+  background-image: url(../img/escarlata-sherlock.webp);
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
@@ -219,7 +220,7 @@ footer {
 .evento6:hover {
   height: 250px;
   transition: 3s;
-  background-image: url(../img/da-vinci.jpg);
+  background-image: url(../img/morel-invention.png);
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
@@ -232,7 +233,7 @@ footer {
 .evento7:hover {
   height: 250px;
   transition: 3s;
-  background-image: url(../img/da-vinci.jpg);
+  background-image: url(../img/pesadillas.jpg);
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
@@ -245,7 +246,7 @@ footer {
 .evento8:hover {
   height: 250px;
   transition: 3s;
-  background-image: url(../img/da-vinci.jpg);
+  background-image: url(../img/autonautas-cosmopista_.jpg);
   background-size: cover;
   font-weight: bold;
   font-size: 18px;
@@ -253,6 +254,12 @@ footer {
   color: white;
   opacity: 0.9;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
+}
+
+.mapa {
+  background-color: #FF8066;
+  text-align: center;
+  padding: 20px;
 }
 
 /* ------------------------------- MEDIA QUERIES ----------------------------------------*/

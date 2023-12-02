@@ -26,14 +26,13 @@
             padding: 20px;
         }
         
-        .call-to-action-a{
-            text-transform: capi;
-            color: $color4weiss;
+        .call-to-action-a h1{
             font-family: Poppins;
             font-weight: bold;
-            font-size: 24px;
+            font-size: 25px;
             text-align: center;
-            line-height: 150%; /* establezco interlineado */
+            line-height: 105%; /* establezco interlineado */
+            padding-bottom: 5%;
         }
         
         .call-to-action-b{
@@ -72,6 +71,34 @@
             font-size: 20px;
             letter-spacing: 16px;
         }
+
+        .form1{
+            display: flex;
+            align-items: center;
+            background-color: $color3 !important;
+            background-color: black;
+            text-align: center;
+            justify-content: center;
+            padding: 5px;
+        
+        }
+        
+        .formulario{
+            justify-content: center;
+            padding: 70px;
+            border: 2px solid $color1;
+        }
+        
+        #title-formulario{
+            font-family: poppins;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+        }
+
+
+
         }
     
 /* Ejecutar estas condiciones CSS para resoluciones de 480px hasta 1024*/
@@ -97,16 +124,15 @@
         padding: 40px;
     }
     
-    .call-to-action-a{
-        text-transform: capi;
-        color: $color4weiss;
+    .call-to-action-a h1{
         font-family: Poppins;
         font-weight: bold;
-        font-size: 26px;
+        font-size: 42px;
         text-align: center;
-        line-height: 180%; /* establezco interlineado */
+        line-height: 105%; /* establezco interlineado */
+        padding-bottom: 2%;
     }
-    
+
     .call-to-action-b{
         text-decoration: none;
         color: $color1;
@@ -143,10 +169,19 @@
         font-size: 20px;
         letter-spacing: 16px;
     }
+
+    .mapa iframe{
+        background-color: $color1;
+        text-align: center;
+        padding: 20px;
+        width: 400px;
+        height: 400px;
+    }
+
     }
 
 /* Ejecutar estas condiciones CSS para resoluciones desde 1024px* hasta 1680px*/
-    @media only screen and (min-width: 1024px) and (max-width:1680px) {
+    @media only screen and (min-width: 1024px) and (max-width:2024px) {
     
     
     /* "logo" */
@@ -216,5 +251,13 @@
         color:$color1 ;
         font-size: 20px;
         letter-spacing: 16px;
+    }
+
+    .mapa iframe{
+        background-color: $color1;
+        text-align: center;
+        padding: 20px;
+        width: 600px;
+        height: 600px;
     }
     }

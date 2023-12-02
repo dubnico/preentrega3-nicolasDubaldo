@@ -1,1 +1,45 @@
+.main-blog{
+    background-color: $color1;
+}
+
+#contenedor-blog{ 
+    background-color: $color3 !important;
+}
+.orden-fila{
+    justify-content: center;
+}
+
+.caja-blog{
+    width:1000px;
+    text-align: justify;
+    background-color: $color4weiss;
+    box-shadow: 2px 2px 30px ;
+}
+
+.card-img-top{
+    background-image: url(../img/borges.jpeg);
+}
+
+#title-blog{
+    background-color: $color1;
+    color: $color4weiss;
+    font-family: $font-principal;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 35px;
+    /* text-shadow: 1px 0px 12px; */
+}
+.card-title-blog{
+    font-family: $font-principal;
+    font-weight:700;
+    text-align: center !important;
+    padding: 25px;
+}
+
+.card-text{
+    margin-top: 2%;
+    font-family: $font-principal;
+    font-weight:100;
+}
 

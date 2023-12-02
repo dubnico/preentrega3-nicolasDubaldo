@@ -107,6 +107,7 @@ footer {
 }
 
 #title-tienda {
+  color: white;
   font-family: poppins;
   font-size: 32px;
   font-weight: bold;
@@ -118,6 +119,7 @@ footer {
 .card {
   margin: 20px;
   box-shadow: 10px 4px 5px rgba(72, 82, 153, 0.2666666667); /*para sombra  caja cards*/
+  width: 280px;
 }
 
 .orden-fila {
@@ -140,7 +142,7 @@ footer {
 
 #title-eventos {
   font-family: "poppins", sans-serif;
-  font-size: 22px;
+  font-size: 32px;
   font-weight: bold;
   text-align: center;
   padding: 35px;
@@ -260,6 +262,53 @@ footer {
   background-color: #FF8066;
   text-align: center;
   padding: 20px;
+}
+
+.main-blog {
+  background-color: #FF8066;
+}
+
+#contenedor-blog {
+  background-color: #54525e !important;
+}
+
+.orden-fila {
+  justify-content: center;
+}
+
+.caja-blog {
+  width: 1000px;
+  text-align: justify;
+  background-color: white;
+  box-shadow: 2px 2px 30px;
+}
+
+.card-img-top {
+  background-image: url(../img/borges.jpeg);
+}
+
+#title-blog {
+  background-color: #FF8066;
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 35px;
+  /* text-shadow: 1px 0px 12px; */
+}
+
+.card-title-blog {
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  text-align: center !important;
+  padding: 25px;
+}
+
+.card-text {
+  margin-top: 2%;
+  font-family: "poppins", sans-serif;
+  font-weight: 100;
 }
 
 /* ------------------------------- MEDIA QUERIES ----------------------------------------*/

@@ -5,6 +5,7 @@
 }
 
 #title-tienda{
+    color: $color4weiss;
     font-family: poppins;
     font-size: 32px;
     font-weight: bold;
@@ -16,6 +17,7 @@
 .card{
     margin: 20px;
     box-shadow: 10px 4px 5px #48529944; /*para sombra  caja cards*/
+    width:280px;
 }
 
 .orden-fila{

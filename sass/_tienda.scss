@@ -1,7 +1,21 @@
-//CÓDIGO TIENDA
 
 #container-fluid-tienda{
     background-color:$color1;
+}
+
+@mixin titles-principales{
+    background-color: $color1;
+    color: $color4weiss;
+    font-family: $font-principal;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 35px;
+    /* text-shadow: 1px 0px 12px; */
+}
+
+.title-tienda{
+@include titles-principales;
 }
 
 #title-tienda{

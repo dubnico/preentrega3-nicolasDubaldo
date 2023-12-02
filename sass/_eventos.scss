@@ -1,11 +1,11 @@
-// CÓDIGO EVENTOS
-
-.section-eventos{
+.main-eventos{
     background-color: $color1;
-    height: 50vh;
+    height: 100vhpx;
 }
 
-#title-eventos{
+@mixin titles-principales{
+    background-color: $color1;
+    color: $color4weiss;
     font-family: $font-principal;
     font-size: 32px;
     font-weight: bold;
@@ -14,10 +14,27 @@
     /* text-shadow: 1px 0px 12px; */
 }
 
+.title-eventos{
+@include titles-principales;
+}
+
+.list-group{
+padding: 20px;
+}
+
 .list-group-item{
     text-align: center;
 }
 
+.color5{
+    background-color: $color5;
+    color: $color4weiss;
+}
+
+.color6{
+    background-color: $color6;
+    color: $color4weiss;
+}
 /*transition*/
 .evento1:hover{
     height: 250px;

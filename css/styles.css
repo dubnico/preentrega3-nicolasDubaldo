@@ -106,6 +106,17 @@ footer {
   background-color: #FF8066;
 }
 
+.title-tienda {
+  background-color: #FF8066;
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 35px;
+  /* text-shadow: 1px 0px 12px; */
+}
+
 #title-tienda {
   color: white;
   font-family: poppins;
@@ -135,12 +146,14 @@ footer {
   border: none;
 }
 
-.section-eventos {
+.main-eventos {
   background-color: #FF8066;
-  height: 50vh;
+  height: 100vhpx;
 }
 
-#title-eventos {
+.title-eventos {
+  background-color: #FF8066;
+  color: white;
   font-family: "poppins", sans-serif;
   font-size: 32px;
   font-weight: bold;
@@ -149,8 +162,22 @@ footer {
   /* text-shadow: 1px 0px 12px; */
 }
 
+.list-group {
+  padding: 20px;
+}
+
 .list-group-item {
   text-align: center;
+}
+
+.color5 {
+  background-color: #023047;
+  color: white;
+}
+
+.color6 {
+  background-color: #219ebc;
+  color: white;
 }
 
 /*transition*/
@@ -258,8 +285,23 @@ footer {
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0);
 }
 
-.mapa {
+.main-contacto {
   background-color: #FF8066;
+}
+
+.title-formulario {
+  background-color: #FF8066;
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 35px;
+  /* text-shadow: 1px 0px 12px; */
+}
+
+.mapa {
+  background-color: #54525e;
   text-align: center;
   padding: 20px;
   width: 100%;
@@ -319,7 +361,7 @@ footer {
   background-image: url(../img/borges.jpeg);
 }
 
-#title-blog {
+.title-blog {
   background-color: #FF8066;
   color: white;
   font-family: "poppins", sans-serif;

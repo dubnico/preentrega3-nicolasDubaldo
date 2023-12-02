@@ -1,6 +1,25 @@
 
-.mapa{
+.main-contacto{
     background-color: $color1;
+}
+
+@mixin titles-principales{
+    background-color: $color1;
+    color: $color4weiss;
+    font-family: $font-principal;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 35px;
+    /* text-shadow: 1px 0px 12px; */
+}
+
+.title-formulario{
+@include titles-principales;
+}
+
+.mapa{
+    background-color: $color3;
     text-align: center;
     padding: 20px;
     width: 100%;

@@ -20,7 +20,7 @@
     background-image: url(../img/borges.jpeg);
 }
 
-#title-blog{
+@mixin titles-principales{
     background-color: $color1;
     color: $color4weiss;
     font-family: $font-principal;
@@ -30,6 +30,13 @@
     padding: 35px;
     /* text-shadow: 1px 0px 12px; */
 }
+
+
+.title-blog{
+@include titles-principales;
+}
+
+
 .card-title-blog{
     font-family: $font-principal;
     font-weight:700;
